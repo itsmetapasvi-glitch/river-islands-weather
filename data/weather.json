@@ -1,0 +1,56 @@
+{
+  "location": {
+    "name": "River Islands",
+    "state": "California",
+    "lat": 37.7397,
+    "lon": -121.4253,
+    "timezone": "America/Los_Angeles"
+  },
+  "current": {
+    "timestamp": "2026-06-14T14:30:00-07:00",
+    "temperature": 78,
+    "feelsLike": 80,
+    "condition": "Partly Cloudy",
+    "icon": "partly-cloudy",
+    "humidity": 42,
+    "windSpeed": 8,
+    "windDirection": "NW",
+    "uvIndex": 7,
+    "visibility": 10,
+    "pressure": 1012,
+    "dewPoint": 52
+  },
+  "hourly": [
+    { "hour": "6 AM", "temp": 62, "aqi": 28, "uv": 0, "wind": 4, "humidity": 58, "condition": "Clear" },
+    { "hour": "7 AM", "temp": 65, "aqi": 30, "uv": 1, "wind": 5, "humidity": 55, "condition": "Clear" },
+    { "hour": "8 AM", "temp": 68, "aqi": 32, "uv": 3, "wind": 6, "humidity": 50, "condition": "Sunny" },
+    { "hour": "9 AM", "temp": 72, "aqi": 35, "uv": 5, "wind": 7, "humidity": 46, "condition": "Sunny" },
+    { "hour": "10 AM", "temp": 75, "aqi": 38, "uv": 7, "wind": 8, "humidity": 43, "condition": "Partly Cloudy" },
+    { "hour": "11 AM", "temp": 77, "aqi": 40, "uv": 8, "wind": 9, "humidity": 41, "condition": "Partly Cloudy" },
+    { "hour": "12 PM", "temp": 79, "aqi": 42, "uv": 9, "wind": 10, "humidity": 40, "condition": "Sunny" },
+    { "hour": "1 PM", "temp": 81, "aqi": 45, "uv": 9, "wind": 11, "humidity": 38, "condition": "Sunny" },
+    { "hour": "2 PM", "temp": 82, "aqi": 48, "uv": 8, "wind": 12, "humidity": 37, "condition": "Sunny" },
+    { "hour": "3 PM", "temp": 83, "aqi": 50, "uv": 7, "wind": 13, "humidity": 36, "condition": "Partly Cloudy" },
+    { "hour": "4 PM", "temp": 82, "aqi": 48, "uv": 5, "wind": 12, "humidity": 38, "condition": "Partly Cloudy" },
+    { "hour": "5 PM", "temp": 80, "aqi": 44, "uv": 3, "wind": 10, "humidity": 40, "condition": "Clear" },
+    { "hour": "6 PM", "temp": 77, "aqi": 40, "uv": 1, "wind": 8, "humidity": 44, "condition": "Clear" },
+    { "hour": "7 PM", "temp": 74, "aqi": 36, "uv": 0, "wind": 6, "humidity": 48, "condition": "Clear" },
+    { "hour": "8 PM", "temp": 71, "aqi": 32, "uv": 0, "wind": 5, "humidity": 52, "condition": "Clear" }
+  ],
+  "daily": [
+    { "date": "2026-06-14", "day": "Sat", "high": 83, "low": 58, "aqi": 45, "condition": "Partly Cloudy", "precip": 0 },
+    { "date": "2026-06-15", "day": "Sun", "high": 86, "low": 60, "aqi": 52, "condition": "Sunny", "precip": 0 },
+    { "date": "2026-06-16", "day": "Mon", "high": 88, "low": 62, "aqi": 58, "condition": "Sunny", "precip": 0 },
+    { "date": "2026-06-17", "day": "Tue", "high": 91, "low": 64, "aqi": 65, "condition": "Hot", "precip": 0 },
+    { "date": "2026-06-18", "day": "Wed", "high": 89, "low": 63, "aqi": 55, "condition": "Partly Cloudy", "precip": 5 },
+    { "date": "2026-06-19", "day": "Thu", "high": 84, "low": 59, "aqi": 42, "condition": "Cloudy", "precip": 15 },
+    { "date": "2026-06-20", "day": "Fri", "high": 79, "low": 56, "aqi": 35, "condition": "Clear", "precip": 0 }
+  ],
+  "heatRisk": {
+    "level": "moderate",
+    "peakHour": "2 PM",
+    "peakTemp": 82,
+    "riskHours": ["12 PM", "1 PM", "2 PM", "3 PM"],
+    "advisory": "Afternoon heat may affect sensitive groups. Hydrate and seek shade between noon and 4 PM."
+  }
+}

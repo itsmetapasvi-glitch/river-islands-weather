@@ -1,0 +1,100 @@
+{
+  "reports": [
+    {
+      "id": "r1",
+      "category": "smoke",
+      "title": "Smoke plume near agricultural burn",
+      "description": "Visible smoke drifting from east side fields toward Island Grove Park area.",
+      "lat": 37.7365,
+      "lon": -121.4290,
+      "timestamp": "2026-06-14T08:15:00-07:00",
+      "upvotes": 12,
+      "confirmations": 8,
+      "author": "RiverResident"
+    },
+    {
+      "id": "r2",
+      "category": "heat",
+      "title": "Playground surface extremely hot",
+      "description": "Michael Vega Park playground equipment too hot to touch by noon. Needs shade structures.",
+      "lat": 37.7421,
+      "lon": -121.4189,
+      "timestamp": "2026-06-13T12:30:00-07:00",
+      "upvotes": 24,
+      "confirmations": 18,
+      "author": "ParentRI"
+    },
+    {
+      "id": "r3",
+      "category": "park-issue",
+      "title": "Broken bench on river trail",
+      "description": "Bench near Boathouse entrance has collapsed seat. Safety hazard for elderly walkers.",
+      "lat": 37.7389,
+      "lon": -121.4225,
+      "timestamp": "2026-06-12T16:45:00-07:00",
+      "upvotes": 7,
+      "confirmations": 5,
+      "author": "TrailWalker"
+    },
+    {
+      "id": "r4",
+      "category": "mosquito",
+      "title": "Heavy mosquito activity at dusk",
+      "description": "Swarms near lake areas after 7 PM. Bring repellent if visiting shoreline trails.",
+      "lat": 37.7312,
+      "lon": -121.4288,
+      "timestamp": "2026-06-13T19:20:00-07:00",
+      "upvotes": 15,
+      "confirmations": 11,
+      "author": "LakeWatcher"
+    },
+    {
+      "id": "r5",
+      "category": "water",
+      "title": "Murky water near fishing dock",
+      "description": "Unusual discoloration in water near Boathouse fishing area. Possible algae bloom.",
+      "lat": 37.7392,
+      "lon": -121.4220,
+      "timestamp": "2026-06-14T07:00:00-07:00",
+      "upvotes": 9,
+      "confirmations": 4,
+      "author": "AnglerJoe"
+    },
+    {
+      "id": "r6",
+      "category": "heat",
+      "title": "No shade at soccer fields",
+      "description": "Saturday tournament — fields have zero shade. Heat index felt above 95°F by 11 AM.",
+      "lat": 37.7425,
+      "lon": -121.4195,
+      "timestamp": "2026-06-14T11:45:00-07:00",
+      "upvotes": 19,
+      "confirmations": 14,
+      "author": "CoachMike"
+    },
+    {
+      "id": "r7",
+      "category": "park-issue",
+      "title": "Overflowing trash cans",
+      "description": "Island Grove Park bins full after weekend events. Attracting pests.",
+      "lat": 37.7356,
+      "lon": -121.4312,
+      "timestamp": "2026-06-11T14:00:00-07:00",
+      "upvotes": 6,
+      "confirmations": 9,
+      "author": "CleanRI"
+    },
+    {
+      "id": "r8",
+      "category": "smoke",
+      "title": "Barbecue smoke at picnic area",
+      "description": "Multiple large BBQ setups creating localized smoke at Michael Vega picnic zones.",
+      "lat": 37.7418,
+      "lon": -121.4192,
+      "timestamp": "2026-06-14T13:00:00-07:00",
+      "upvotes": 3,
+      "confirmations": 2,
+      "author": "NeighborSam"
+    }
+  ]
+}

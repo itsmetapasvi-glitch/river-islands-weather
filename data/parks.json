@@ -1,0 +1,60 @@
+{
+  "parks": [
+    {
+      "id": "michael-vega",
+      "name": "Michael Vega Park",
+      "description": "Community hub with sports fields, playgrounds, and picnic areas along the San Joaquin River.",
+      "lat": 37.7421,
+      "lon": -121.4189,
+      "comfortScore": 84,
+      "crowdPrediction": "Moderate",
+      "crowdLevel": 55,
+      "bestHours": "7 AM – 10 AM",
+      "weatherSuitability": "Excellent",
+      "amenities": ["Sports Fields", "Playground", "Picnic Areas", "Restrooms"],
+      "highlights": "Shaded areas available near the river trail"
+    },
+    {
+      "id": "island-grove",
+      "name": "Island Grove Park",
+      "description": "Scenic park with walking paths, native landscaping, and open green spaces for recreation.",
+      "lat": 37.7356,
+      "lon": -121.4312,
+      "comfortScore": 88,
+      "crowdPrediction": "Low",
+      "crowdLevel": 30,
+      "bestHours": "6 AM – 9 AM, 5 PM – 7 PM",
+      "weatherSuitability": "Excellent",
+      "amenities": ["Walking Trails", "Dog-Friendly", "Native Gardens"],
+      "highlights": "Best sunrise views in River Islands"
+    },
+    {
+      "id": "boathouse",
+      "name": "River Islands Boathouse",
+      "description": "Waterfront recreation center with kayak rentals, fishing access, and marina views.",
+      "lat": 37.7389,
+      "lon": -121.4225,
+      "comfortScore": 76,
+      "crowdPrediction": "Moderate",
+      "crowdLevel": 48,
+      "bestHours": "8 AM – 12 PM",
+      "weatherSuitability": "Good",
+      "amenities": ["Kayak Rental", "Fishing Dock", "Marina", "Parking"],
+      "highlights": "Calm morning waters ideal for paddling"
+    },
+    {
+      "id": "lake-areas",
+      "name": "Nearby Lake Areas",
+      "description": "Scattered lakefront zones offering fishing spots, bird watching, and peaceful shoreline walks.",
+      "lat": 37.7312,
+      "lon": -121.4288,
+      "comfortScore": 80,
+      "crowdPrediction": "Low",
+      "crowdLevel": 25,
+      "bestHours": "6 AM – 10 AM",
+      "weatherSuitability": "Good",
+      "amenities": ["Fishing", "Bird Watching", "Shoreline Trails"],
+      "highlights": "Wildlife activity peaks at dawn"
+    }
+  ]
+}

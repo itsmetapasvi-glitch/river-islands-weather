@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-06-14T14:30:00-07:00",
+  "activities": [
+    {
+      "id": "soccer",
+      "name": "Soccer",
+      "icon": "footprints",
+      "score": 82,
+      "reasoning": "Mild temperatures and good air quality make for excellent field conditions. UV is moderate — consider morning sessions.",
+      "bestTime": "7 AM – 10 AM",
+      "trend": [72, 85, 78, 65, 55, 48, 42, 38]
+    },
+    {
+      "id": "running",
+      "name": "Running",
+      "icon": "activity",
+      "score": 78,
+      "reasoning": "Cool morning temps ideal for distance runs. Afternoon heat pushes effort into high-stress zone after 1 PM.",
+      "bestTime": "6 AM – 9 AM",
+      "trend": [88, 92, 85, 70, 55, 45, 40, 38]
+    },
+    {
+      "id": "cycling",
+      "name": "Cycling",
+      "icon": "bike",
+      "score": 75,
+      "reasoning": "Light NW winds provide natural cooling on trails. Midday UV warrants sunscreen and hydration stops.",
+      "bestTime": "7 AM – 11 AM",
+      "trend": [80, 88, 82, 72, 60, 50, 45, 40]
+    },
+    {
+      "id": "walking",
+      "name": "Walking",
+      "icon": "footprints",
+      "score": 85,
+      "reasoning": "Comfortable throughout the day with brief afternoon warmth. Evening strolls along the waterfront are ideal.",
+      "bestTime": "6 PM – 8 PM",
+      "trend": [75, 82, 80, 72, 65, 70, 85, 88]
+    },
+    {
+      "id": "fishing",
+      "name": "Fishing",
+      "icon": "fish",
+      "score": 70,
+      "reasoning": "Morning bite window aligns with calm winds. Afternoon gusts may affect casting from open shoreline.",
+      "bestTime": "6 AM – 10 AM",
+      "trend": [85, 82, 75, 60, 55, 50, 48, 45]
+    },
+    {
+      "id": "boating",
+      "name": "Boating",
+      "icon": "sailboat",
+      "score": 68,
+      "reasoning": "Moderate winds suitable for casual boating. Experienced sailors may prefer stronger afternoon gusts.",
+      "bestTime": "10 AM – 2 PM",
+      "trend": [55, 62, 70, 78, 82, 75, 60, 50]
+    },
+    {
+      "id": "photography",
+      "name": "Photography",
+      "icon": "camera",
+      "score": 88,
+      "reasoning": "Golden hour lighting at dawn and dusk. Partly cloudy skies add dramatic depth to landscape shots.",
+      "bestTime": "6 AM – 8 AM, 6 PM – 8 PM",
+      "trend": [92, 88, 75, 65, 60, 70, 90, 95]
+    },
+    {
+      "id": "outdoor-events",
+      "name": "Outdoor Events",
+      "icon": "users",
+      "score": 72,
+      "reasoning": "Good conditions for community gatherings before noon. Schedule shade and hydration for afternoon events.",
+      "bestTime": "9 AM – 12 PM",
+      "trend": [70, 78, 82, 75, 60, 50, 45, 40]
+    }
+  ]
+}
