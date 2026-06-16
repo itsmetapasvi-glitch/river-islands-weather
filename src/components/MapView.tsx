@@ -2,20 +2,7 @@
 
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
-import L from "leaflet";
-import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
-import markerIcon from "leaflet/dist/images/marker-icon.png";
-import markerShadow from "leaflet/dist/images/marker-shadow.png";
 import { Skeleton } from "@/components/ui/skeleton";
-
-function fixLeafletIcons() {
-  delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })._getIconUrl;
-  L.Icon.Default.mergeOptions({
-    iconUrl: markerIcon.src,
-    iconRetinaUrl: markerIcon2x.src,
-    shadowUrl: markerShadow.src,
-  });
-}
 
 const MapContainer = dynamic(
   () => import("react-leaflet").then((mod) => mod.MapContainer),
@@ -61,7 +48,15 @@ export function MapView({
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    fixLeafletIcons();
+    import("leaflet").then((mod) => {
+      const L = mod.default;
+      delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })._getIconUrl;
+      L.Icon.Default.mergeOptions({
+        iconUrl: "/leaflet/marker-icon.png",
+        iconRetinaUrl: "/leaflet/marker-icon-2x.png",
+        shadowUrl: "/leaflet/marker-shadow.png",
+      });
+    });
     setMounted(true);
   }, []);
 
